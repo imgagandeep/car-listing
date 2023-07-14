@@ -1,0 +1,37 @@
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-form {
+    width: 400px;
+    height: 100%;
+    margin: 100px auto auto;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.input-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.error_message {
+    display: none;
+    text-align: center;
+}
+
+.car-card {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+
+.card-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
